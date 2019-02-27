@@ -1,10 +1,20 @@
 /*This is a test comment
 * 
 */
+#banner {
+    width:100%;
+    height:150px;
+    background-image: url("../images/ricardo-gomez-angel-627601-unsplash.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 10px;
+}
 h1 {
     text-align: center;
     font-size: 36pt;
-    color: cornflowerblue;
+    font-style:italic;
+    color: navy;
+    text-shadow: 6px 4px 10px #878787;
 }
 
 body {
@@ -16,8 +26,32 @@ body {
 .wiki {
     margin: auto;
     width: 75%;
-    background-color: silver;
+    /*background-color: silver;*/
+    background: linear-gradient(90deg, yellow, orange);
     padding: 8px;
     border: 4px solid black;
-    border-radius: 0px 20px 0px 20px; /*Top, Right, Bottom, Left*/
+    border-radius: 0px 20px 0px 20px;
+    /*Top, Right, Bottom, Left*/
+}
+/* .classname*/
+.primary {
+    font-weight: bold;
+    color:firebrick
+}
+ul {
+    list-style-type: square;
+}
+
+li {
+    display: inline;
+    background-color:antiquewhite;
+}
+li a {
+    color: royalblue;
+}
+#opaque {
+    opacity: .5;
+    margin:15px auto;
+    float:left;
+    z-index:1;
 }
