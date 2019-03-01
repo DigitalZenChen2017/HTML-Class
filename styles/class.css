@@ -9,6 +9,9 @@
     background-size: cover;
     text-align: center;
     padding-top: 10px;
+    position:fixed;
+    bottom:0px;
+    right:0px;
 }
 h1 {
     text-align: center;
@@ -45,14 +48,53 @@ ul {
 
 li {
     display: inline;
-    background-color:antiquewhite;
 }
 li a {
     color: royalblue;
+    padding:6px;
+    background-color:gold;
+    border: 2px black double;
+    border-radius: 0px 0px 6px 6px;
 }
+li a:hover {
+    color: white;
+    background-color:navy;
+    border: 4px double gold;
+}
+
 #opaque {
     opacity: .5;
     margin:15px auto;
     float:left;
     z-index:1;
+}
+table {
+    border: 3px solid black;
+    border-collapse:collapse;
+    width:50%;
+    margin:auto;
+}
+td,th {
+    border: 1px solid black;
+    text-align:center;
+    padding:6px 0px;
+}
+/*th is table header and td is table data*/
+th {
+    background-color: lightgray;
+    width:33%;
+}
+td:nth-child(3){
+    text-align:left;
+    padding-left:14px;
+}
+footer {
+    width:100%;
+    background-color:greenyellow;
+    text-align:center;
+    font-size:18px;
+    height:24px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
 }
