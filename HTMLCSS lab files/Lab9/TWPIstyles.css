@@ -53,7 +53,7 @@ nav a {
 
 
 nav {
-    
+
     background-color:black;
     /* margin-top:10px; */
     /* padding-bottom:5px;*/
@@ -67,4 +67,13 @@ nav {
 aside {
     background: linear-gradient(white 50px, rgb(255,93,0)); 
 }
-
+table {
+    background-color: orange;
+    border: 4px black double;
+}
+td{
+    /*border: 1px solid black;*/
+}
+.alignRight {
+text-align:right;
+}

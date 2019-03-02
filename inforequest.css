@@ -1,0 +1,39 @@
+#spamForm {
+    text-align:center;
+}
+
+#formTable {
+    border: 5px double black;
+    background-color: yellow;
+    margin:auto;
+}
+
+td:nth-child(1) {
+    text-align:right;
+}
+[colspan] {
+    text-align: middle;
+}
+td: {
+    text-align: left;
+}
+
+.middle {
+    text-align:right;
+}
+h1 {
+    text-align: center;
+}
+#top {
+    text-align: left;
+}
+iframe {
+    border 12px double back;
+    margin-top: 30px;
+}
+body {
+    /*background-color: #232323;
+}
+#topText {
+    color: floralwhite;
+}

@@ -1,34 +1,72 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-    <title>Contact Us</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="TWPIstyles.css" rel="stylesheet" />
-</head>
-<body>
+    <head>
+        <title>Contact Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="TWPIstyles.css" rel="stylesheet" />
+    </head>
+    <body>
 
-    <header>
-        Toy Web Pages Inc.  &#9786;
-    </header>
+        <header>
+            Toy Web Pages Inc.  &#9786;
+        </header>
 
-    <nav>
-        <a href="default.html">Home</a> <a href="Toys.html">Toys</a> <a href="Sports.html">Sports</a> <a href="InfoRequest.html">More Information</a>
-    </nav>
+        <nav>
+            <a href="default.html">Home</a> <a href="Toys.html">Toys</a> <a href="Sports.html">Sports</a> <a href="InfoRequest.html">More Information</a>
+        </nav>
 
-    <h2>We welcome all feedback and suggestions!</h2>
+        <h2>We welcome all feedback and suggestions!</h2>
 
-    <section>
+        <section>
 
-        <form name="form1" method="GET" action="formresultsdummy.html">
+            <form name="form1" method="GET" action="formresultsdummy.html">
+                <table>
+                    <tr>
+                        <th colspan=2><h1>Have Questions? Contact Us Today!</h1></th>
+                    </tr>
+                    <tr>
+                        <td class = "alignRight">First Name:</td>
+                        <td><input type="text" name="firstName" size=60  required></td>
+                    </tr>
+                    <tr>
+                        <td class = "alignRight">Last Name:</td>
+                        <td><input type="text" name="lastName" size=60 required></td>
+                    </tr>
+                    <tr>
+                        <td class = "alignRight">State:</td>
+                        <td><select name="states" id="category">
+                            <option  value="OP">Select Option:</option>
+                            <option  value="AZ">Arizona</option>
+                            <option  value="AL">Alabama</option> 
+                            <option  value="GA">Georgia</option> 
+                            <option  value="MO">Montana</option> 
+                            <option  value="NE">Nebraska</option> 
+                            <option  value="OH">Ohio</option> 
+                            <option  value="PA">Pennsylvania</option> 
+                            <option  value="WY">Wyoming</option> 
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td class = "alignRight">Email:</td>
+                        <td><input type="text" name="email" size=60 required></td>
+                    </tr>
+                    <tr>
+                        <td class = "alignRight">Phone Number:</td>
+                        <td><input type="text" name="phoneNumber" size=20 maxlength=10 required></td>
+                    </tr>
+                    <tr>
+                        <td class = "alignRight">Comments:</td>
+                        <td><textarea name="comments" rows=5 cols=59 wrap="soft"></textarea></td>
+                    </tr>
+                    <td colspan=2 class="middle"><input type="submit" id="submit"> <input type="reset" id="reset">
+                    </td>
+                </table>
+            </form>
+        </section>
+        <footer>
+            Copyright © 2017 TWPinc.   <a href="AboutUs.html">About</a>    <a href="Contact.html">Contact Us</a>    <a href="Privacy.html">Privacy</a>
+        </footer>
 
 
-        </form>
-
-    </section>
-    <footer>
-        Copyright © 2017 TWPinc.   <a href="AboutUs.html">About</a>    <a href="Contact.html">Contact Us</a>    <a href="Privacy.html">Privacy</a>
-    </footer>
-
-
-</body>
+    </body>
 </html>
