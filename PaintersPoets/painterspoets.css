@@ -3,18 +3,27 @@ h1 {
     font-size:60px;
     text-align:center;
 }
-#topFold {
+/*#topFold {
     width:100%;
     height:150px;
     background-image:url("../images/ricardo-gomez-angel-627601-unsplash.jpg");
     background-size: cover;
     text-align: center;
-}
+}*/
 p {
     text-align: center;
-    padding-top: 500px;
+    padding-top: 2em;
     width:85%;
     margin:auto;
     font-family: 'Slabo 27px', serif;
     line-height: 1.5em;
+}
+.column {
+    float:
+    width:33.33%;
+    padding: 5px;
+}
+#abPictures {
+    background-color: blanchedalmond;
+    width:33%;
 }
