@@ -24,6 +24,11 @@ p {
         width:33.33%;
     padding: 5px;
 }
+.jamesColumn {
+    float:
+        width:20%;
+    padding 5px;
+}
 #abPictures {
     background-color: blanchedalmond;
     width:33%;
@@ -58,5 +63,13 @@ b {
     font-weight: bold;
     vertical-align: middle;
     background-color: darksalmon;
+    padding: 8px;
+}
+#jamesDropCap {
+    font-size: 64px;
+    line-height: 1.7em;
+    font-weight: bold;
+    vertical-align: middle;
+    background-color: firebrick;
     padding: 8px;
 }
